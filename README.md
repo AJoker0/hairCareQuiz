@@ -4,27 +4,27 @@ A modern, responsive Single Page Application (SPA) built with React that helps u
 
 ![Hair Care Quiz Demo](https://img.shields.io/badge/Demo-Live-brightgreen) ![React](https://img.shields.io/badge/React-18+-blue) ![Vite](https://img.shields.io/badge/Vite-Latest-purple)
 
-## 🌟 Features
+##  Features
 
-### 🎯 Core Functionality
+###  Core Functionality
 - **Interactive Quiz Flow** - 5-question guided experience with smooth navigation
 - **Route-based Questions** - Each question has its own URL for better UX and shareability
 - **Product Recommendations** - Smart product matching based on user inputs
 - **Wishlist System** - Save favorite products with persistent storage
 - **Responsive Design** - Optimized for all device sizes
 
-### 🎨 UI/UX Highlights
+###  UI/UX Highlights
 - **Circular Progress Indicator** - Visual feedback showing quiz completion
 - **Smooth Transitions** - Polished animations and micro-interactions
 
-### 🔧 Technical Features
+###  Technical Features
 - **React Router** 
 - **Context API** 
 - **Local Storage Integration** 
 - **API Integration** 
 - **Smart Product Matching** 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 16+ 
@@ -78,7 +78,7 @@ src/
 
 
 
-## 🚀 Deployment
+##  Deployment
 - **Vercel** 
 
 
