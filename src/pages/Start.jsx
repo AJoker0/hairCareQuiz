@@ -35,7 +35,6 @@ export default function Start() {
             
             <div style={{ 
                 textAlign: "center", 
-                maxWidth: "90%", 
                 width: "100%",
                 maxWidth: "820px",
                 color: "#fff", 
