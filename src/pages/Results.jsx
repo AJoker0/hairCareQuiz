@@ -41,7 +41,7 @@ export default function Results() {
         <div style={{ minHeight: "100vh", backgroundColor: "#f8f9fa" }}>
             <section style={{
                 minHeight: "60vh",
-                backgroundImage: "url(/images/Rectangle1.jpg)",
+                backgroundImage: "url(/images/Rectangle2.jpg)",
                 backgroundSize: "cover", 
                 backgroundPosition: "center",
                 display: "grid", 

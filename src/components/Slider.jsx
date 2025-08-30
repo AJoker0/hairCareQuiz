@@ -49,21 +49,21 @@ export default function Slider({ children }) {
 
     return (
         <div style={{ position: "relative" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 20, justifyContent: "flex-start", width: "100%" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 20, justifyContent: "center", width: "100%" }}>
                 {canScrollLeft && (
                     <button 
                         onClick={() => scroll(-1)} 
                         style={{ 
-                            width: 50,
-                            height: 50,
+                            width: 60,
+                            height: 60,
                             borderRadius: "50%",
                             border: "none",
                             background: "#fff",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            fontSize: 24,
-                            fontWeight: "bold",
+                            fontSize: 32,
+                            fontWeight: "normal",
                             cursor: "pointer",
                             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
                             zIndex: 2,
@@ -104,16 +104,16 @@ export default function Slider({ children }) {
                     <button 
                         onClick={() => scroll(1)} 
                         style={{ 
-                            width: 50,
-                            height: 50,
+                            width: 60,
+                            height: 60,
                             borderRadius: "50%",
                             border: "none",
                             background: "#fff",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            fontSize: 24,
-                            fontWeight: "bold",
+                            fontSize: 32,
+                            fontWeight: "normal",
                             cursor: "pointer",
                             boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
                             zIndex: 2,

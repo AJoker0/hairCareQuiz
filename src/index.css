@@ -83,3 +83,9 @@ button{font:inherit}
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Шрифт для заголовков вопросов */
+.question-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}

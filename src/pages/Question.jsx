@@ -25,20 +25,20 @@ export default function Question() {
       <div style={{ maxWidth: 880, width: "100%", textAlign: "center" }}>
         {/* Заголовок с таймером на одном уровне */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 40, position: "relative" }}>
-          <h2 style={{ fontSize: 40, margin: 0, flex: 1 }}>{q.title}</h2>
+          <h2 className="question-title" style={{ fontSize: 40, margin: 0, flex: 1 }}>{q.title}</h2>
           <div style={{ position: "absolute", right: 0, top: "50%", transform: "translateY(-50%)" }}>
             <ProgressRing current={n} total={5} />
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center", marginBottom: 40 }}> 
-          {q.opts.map((opt) => (
+          {q.opts.map((opt, index) => (
             <OptionButton
               key={opt}
               selected={answers[q.key] === opt}
               onClick={() => setAnswer(q.key, opt)}
             >
-              {opt}
+              {String.fromCharCode(97 + index)}. {opt}
             </OptionButton>
           ))}
         </div>
